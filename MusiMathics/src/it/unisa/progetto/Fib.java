@@ -67,9 +67,10 @@ public class Fib {
 
 		Player playerMusic = new Player();
 		String totalMusic = "V0 I[FLUTE] T[Moderato] :CON(7, 70) " + music + " rw rw rw rw rw rw"
-				+ " V1 I[FLUTE] T[Moderato] :CON(7, 70) | rw rw rw " + music1 + "rw rw"
-				+ " V2 I[FLUTE] T[Moderato] :CON(7, 70) | rw " + music2 + " V3 I[FLUTE] T[Moderato] :CON(7, 70) | rw rw"
-				+ music3 + "D6q E6q F6q G6q A6q B6q C7q D7q E7q F7q G7q A7q B7q C7w";
+							+ " V1 I[FLUTE] T[Moderato] :CON(7, 70) | rw rw rw " + music1 + "rw rw"
+							+ " V2 I[FLUTE] T[Moderato] :CON(7, 70) | rw " + music2
+							+ " V3 I[FLUTE] T[Moderato] :CON(7, 70) | rw rw" + music3
+							+ "D6q E6q F6q G6q A6q B6q C7q D7q E7q F7q G7q A7q B7q C7w";
 		System.out.format("totalMusic = %s\n", totalMusic);
 		playerMusic.play(totalMusic);
 	}
