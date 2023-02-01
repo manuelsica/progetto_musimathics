@@ -165,6 +165,7 @@ public class Fib {
 					 * che verranno riprodotte con diversi canali V0, V1, V2 e V3 con le relative
 					 * istruzioni per la riproduzione.
 					 * 
+					 * Si sceglie non i battiti per minuto di default di 120 ma di Moderato di 95 BPM 
 					 */
 					Player playerMusic = new Player();
 					System.out.format("music=%s\n", music);
